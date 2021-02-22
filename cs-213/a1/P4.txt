@@ -1,0 +1,31 @@
+java Endianness 01 02 03 04
+
+The first test after multiple attempts started working with bit shifts to the left (shift 24, 16, 8, 0, this is due to
+fitting it in the 32 bit integer). In short, I worked specifically only on the big endian first. I shifted each byte to
+the left into their corresponding location, and then added them all together. Shortly after getting this logic to work
+in Big Endian code, I did the same thing for the Lil Endian code; however, I reversed the array indexes, meaning the
+first indexed byte is the one being shifted 0 bits, while the last indexed byte shifted 24 bits.
+
+1.java Endianness ff ff ff ff
+2.java Endianness 80 80 80 80
+3.java Endianness 10 10 10 10
+4.java Endianness 10 00 00 10 (this one worked fine)
+5.java Endianness 10 00 00 00 (This one worked fine)
+6.java Endianness 80 00 00 80 (slight difference)
+7.java Endianness ff 00 00 ff (slight difference)
+8.java Endianness 00 00 00 ff (wrong sign not supposed to be negative and much higher magnitude)
+9.java Endianness 00 00 00 80 (wrong sign not supposed to be negative)
+10. java Endianness ff 00 00 00 (worked fine)
+11. java Endianness 80 00 00 00 (worked fine)
+
+The first ~50 tests of this variation (1 in the 32bit location) ended up in failure,
+and for hours, I kept gathering clues as to why this wouldn't work. Logically I thought,
+shifting every byte to their corresponding location shouldn't have failed. However, it's when I tested the 4th-5th
+test where I thought that the middle 2 bytes had issues from being shifted. But, on the 6th-9th test, I realized that
+wasn't the case, as the last byte also had issues from being shifted. I came to that conclusion when I tested with only
+the most significant byte (first byte). I then printed out the other 3 bytes individually before and after being
+shifted. I then noticed that when they got shifted they converted into a 4 byte int with all the extra left bytes being
+filled with value f. I then looked at the notes and realized this is due to signed bits maintaining the high order bit
+when being shifted, so my solution to it was just to mask the extra f's in all the bytes except the first byte (there
+are no extra f's). And after that I redid all the tests above, and it worked. This all took 4 hours, it's 5 am.
+I should've just looked at my notes. Thanks for coming to my ted talk.

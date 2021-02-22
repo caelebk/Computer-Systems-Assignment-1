@@ -1,0 +1,3 @@
+0x00000000 (another ex: 0xff0000ff)
+This can be generalized when the pattern is identical in reverse order (palindromic) then
+the big and lil endian will have identical representation.

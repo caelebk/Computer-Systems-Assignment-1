@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58267592-57bd-45d8-a9c6-4dafc23f3f77" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hinj3M7xb1UqoqlI8BSpUabyfh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SM213">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration name="SM213" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SimpleMachine" />
+      <module name="SM213" />
+      <option name="PROGRAM_PARAMETERS" value="-i gui -a sm213 -v student" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleMachine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMemoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SM213" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arch.sm213.machine.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arch.sm213.machine.student" />
+      <option name="MAIN_CLASS_NAME" value="arch.sm213.machine.student.MainMemoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMemoryTest.testGetNoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SM213" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arch.sm213.machine.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arch.sm213.machine.student" />
+      <option name="MAIN_CLASS_NAME" value="arch.sm213.machine.student.MainMemoryTest" />
+      <option name="METHOD_NAME" value="testGetNoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMemoryTest.testSetNoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SM213" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arch.sm213.machine.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arch.sm213.machine.student" />
+      <option name="MAIN_CLASS_NAME" value="arch.sm213.machine.student.MainMemoryTest" />
+      <option name="METHOD_NAME" value="testSetNoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMemoryTest.testSetWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SM213" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arch.sm213.machine.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arch.sm213.machine.student" />
+      <option name="MAIN_CLASS_NAME" value="arch.sm213.machine.student.MainMemoryTest" />
+      <option name="METHOD_NAME" value="testSetWithException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleMachine" />
+        <item itemvalue="JUnit.MainMemoryTest" />
+        <item itemvalue="JUnit.MainMemoryTest.testSetNoException" />
+        <item itemvalue="JUnit.MainMemoryTest.testSetWithException" />
+        <item itemvalue="JUnit.MainMemoryTest.testGetNoException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58267592-57bd-45d8-a9c6-4dafc23f3f77" name="Default" comment="" />
+      <created>1483659061282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483659061282</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="87" key="#SimpleMachine" timestamp="1601331529067">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="403" y="87" key="#SimpleMachine/0.23.1440.816@0.23.1440.816" timestamp="1601330620392" />
+    <state x="403" y="87" key="#SimpleMachine/0.23.1440.821@0.23.1440.821" timestamp="1601331529067" />
+    <state width="1399" height="192" key="GridCell.Tab.0.bottom" timestamp="1601334951640">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1399" height="192" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1601334951640" />
+    <state width="1399" height="192" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1601331542157" />
+    <state width="1399" height="192" key="GridCell.Tab.0.center" timestamp="1601334951639">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1399" height="192" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1601334951639" />
+    <state width="1399" height="192" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1601331542156" />
+    <state width="1399" height="192" key="GridCell.Tab.0.left" timestamp="1601334951639">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1399" height="192" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1601334951639" />
+    <state width="1399" height="192" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1601331542155" />
+    <state width="1399" height="192" key="GridCell.Tab.0.right" timestamp="1601334951639">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state width="1399" height="192" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1601334951639" />
+    <state width="1399" height="192" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1601331542156" />
+    <state width="1399" height="240" key="GridCell.Tab.1.bottom" timestamp="1600575901659">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1399" height="240" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1600574460422" />
+    <state width="1399" height="240" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1600575901659" />
+    <state width="1399" height="240" key="GridCell.Tab.1.center" timestamp="1600575901659">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1399" height="240" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1600574460421" />
+    <state width="1399" height="240" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1600575901659" />
+    <state width="1399" height="240" key="GridCell.Tab.1.left" timestamp="1600575901659">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1399" height="240" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1600574460421" />
+    <state width="1399" height="240" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1600575901659" />
+    <state width="1399" height="240" key="GridCell.Tab.1.right" timestamp="1600575901659">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1399" height="240" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1600574460421" />
+    <state width="1399" height="240" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1600575901659" />
+    <state x="404" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1602658820657">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="404" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1602658820657" />
+    <state x="404" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1600743742796" />
+    <state x="404" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1601432077149" />
+    <state x="431" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600567828573">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="431" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.816@0.23.1440.816" timestamp="1600567828573" />
+    <state x="392" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1600508344431">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="392" y="163" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1600508344431" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arch/sm213/machine/student/MainMemoryTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SM213</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

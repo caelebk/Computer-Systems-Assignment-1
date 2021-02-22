@@ -1,0 +1,2 @@
+In integers: 1710622464 and -1282286081
+In little endian: 0x65F60700 and 0xB391DDFF
